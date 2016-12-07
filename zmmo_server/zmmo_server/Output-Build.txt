@@ -1,0 +1,32 @@
+﻿1>------ Build started: Project: zmmo_server, Configuration: Debug Win32 ------
+1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (client.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+1>  stdafx.cpp
+1>  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+1>  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+1>  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+1>  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+1>  shadow.cpp
+1>c:\programmering\c++\zombiemmo_2\zmmo_server\zmmo_server\shadow.cpp(101): warning C4715: 'Octant': not all control paths return a value
+1>  program.cpp
+1>  player.cpp
+1>  map.cpp
+1>c:\programmering\c++\zombiemmo_2\zmmo_server\zmmo_server\map.cpp(26): warning C4018: '<': signed/unsigned mismatch
+1>c:\programmering\c++\zombiemmo_2\zmmo_server\zmmo_server\map.cpp(27): warning C4018: '<': signed/unsigned mismatch
+1>c:\programmering\c++\zombiemmo_2\zmmo_server\zmmo_server\map.cpp(17): warning C4101: 'channels': unreferenced local variable
+1>  main.cpp
+1>  itemdrop.cpp
+1>  game.cpp
+1>  entitycollection.cpp
+1>  entity.cpp
+1>c:\programmering\c++\zombiemmo_2\zmmo_server\zmmo_server\entity.cpp(37): warning C4267: 'argument': conversion from 'size_t' to 'const short', possible loss of data
+1>c:\programmering\c++\zombiemmo_2\zmmo_server\zmmo_server\entity.cpp(42): warning C4267: 'argument': conversion from 'size_t' to 'const short', possible loss of data
+1>c:\programmering\c++\zombiemmo_2\zmmo_server\zmmo_server\entity.cpp(48): warning C4267: 'argument': conversion from 'size_t' to 'const short', possible loss of data
+1>  actor.cpp
+1>  glt-d.lib(SOIL.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+1>actor.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+1>  Generating code
+1>  Finished generating code
+1>  client.vcxproj -> C:\Programmering\C++\zombiemmo_2\zmmo_server\Debug\zmmo_server.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Code\Framework">
+      <UniqueIdentifier>{dd59f3ed-b2b4-44aa-a095-93e5bdf2b5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{8af80a57-8804-4fa7-83be-b98adf924ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Shaders">
+      <UniqueIdentifier>{9e62e514-301e-42d1-8bf9-48bc1bedd587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Game">
+      <UniqueIdentifier>{0dd92a35-707d-4aac-a22f-107c1fc7d54a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Game\Actor">
+      <UniqueIdentifier>{f37b5a4d-7a2d-426f-b549-984a9867ab05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Shaders\Shadow">
+      <UniqueIdentifier>{ea513ea5-4a83-4fe5-8aa7-2e5b140c5861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Game\UI">
+      <UniqueIdentifier>{4c582e33-2081-4f23-a9be-a5f46a1cc451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Shaders\UI">
+      <UniqueIdentifier>{00f2aaed-181d-4db7-b6ce-ebca7d326c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Framework\Graphics">
+      <UniqueIdentifier>{d71cafc1-abe9-464a-ada6-b39bea46ad10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Game\UI\System">
+      <UniqueIdentifier>{5183818f-5d9d-4f19-a6bd-0f0c868c2af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Game\Actor\Item">
+      <UniqueIdentifier>{957e3371-b29b-4962-8ed7-0c25d8faf976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{d1322c9e-9626-4f15-ac3d-cd8f33809154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Game\Effects">
+      <UniqueIdentifier>{05a0e6f6-a931-45a5-b4cf-c1093a3ff739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Game\Actor\Player">
+      <UniqueIdentifier>{012c19f7-656d-4185-ac2a-e0d6e70924cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Game\Actor\Projectile">
+      <UniqueIdentifier>{43ac043a-7fc0-4d81-ae48-349b795f364a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Data">
+      <UniqueIdentifier>{6e333b44-8b8a-4d9d-bd6a-642efad44100}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="program.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="framework.cpp">
+      <Filter>Code\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="tiletext.cpp">
+      <Filter>Code\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Code\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Code\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="actor.cpp">
+      <Filter>Code\Game\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="cameracontroller.cpp">
+      <Filter>Code\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="mathutils.cpp">
+      <Filter>Code\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>Code\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="uirenderer.cpp">
+      <Filter>Code\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="shadowdrawer.cpp">
+      <Filter>Code\Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="tiledrawer.cpp">
+      <Filter>Code\Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="stringdrawer.cpp">
+      <Filter>Code\Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="tileset.cpp">
+      <Filter>Code\Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_element.cpp">
+      <Filter>Code\Game\UI\System</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_pane.cpp">
+      <Filter>Code\Game\UI\System</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_textbox.cpp">
+      <Filter>Code\Game\UI\System</Filter>
+    </ClCompile>
+    <ClCompile Include="uitools.cpp">
+      <Filter>Code\Game\UI\System</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_inventory.cpp">
+      <Filter>Code\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sprite.cpp">
+      <Filter>Code\Game\UI\System</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Code\Game\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="entitycollection.cpp">
+      <Filter>Code\Game\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="itemdrop.cpp">
+      <Filter>Code\Game\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_log.cpp">
+      <Filter>Code\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Code\Game\Actor\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="inventory.cpp">
+      <Filter>Code\Game\Actor\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Code\Game\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp">
+      <Filter>Code\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>Code\Game\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="line.cpp">
+      <Filter>Code\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="inputcontroller.cpp">
+      <Filter>Code\Game\Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="projectile.cpp">
+      <Filter>Code\Game\Actor\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="deathdarkness.cpp">
+      <Filter>Code\Game\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="cone.cpp">
+      <Filter>Code\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>Code\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>Code\Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="program.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Code\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="tiletext.h">
+      <Filter>Code\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Code\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Code\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="actor.h">
+      <Filter>Code\Game\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="cameracontroller.h">
+      <Filter>Code\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="mathutils.hpp">
+      <Filter>Code\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="colorutils.h">
+      <Filter>Code\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>Code\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="uirenderer.h">
+      <Filter>Code\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="shadowdrawer.h">
+      <Filter>Code\Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="tiledrawer.h">
+      <Filter>Code\Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="stringdrawer.h">
+      <Filter>Code\Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="tileset.h">
+      <Filter>Code\Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_element.h">
+      <Filter>Code\Game\UI\System</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_pane.h">
+      <Filter>Code\Game\UI\System</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_textbox.h">
+      <Filter>Code\Game\UI\System</Filter>
+    </ClInclude>
+    <ClInclude Include="uitools.h">
+      <Filter>Code\Game\UI\System</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_inventory.h">
+      <Filter>Code\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sprite.h">
+      <Filter>Code\Game\UI\System</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Code\Game\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="entitycollection.h">
+      <Filter>Code\Game\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="itemdrop.h">
+      <Filter>Code\Game\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>Code\Game\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_log.h">
+      <Filter>Code\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Code\Game\Actor\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="inventory.h">
+      <Filter>Code\Game\Actor\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Code\Game\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared_code\protocol.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Code\Game\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>Code\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared_code\timer.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared_code\types.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="inputcontroller.h">
+      <Filter>Code\Game\Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="projectile.h">
+      <Filter>Code\Game\Actor\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="deathdarkness.h">
+      <Filter>Code\Game\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="cone.h">
+      <Filter>Code\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Code\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>Code\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="jsontools.h">
+      <Filter>Code\Framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader_tile.vert">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="shader_tile.frag">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="shader_line.vert">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="shader_line.frag">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="shader_shadow.frag">
+      <Filter>Resources\Shaders\Shadow</Filter>
+    </None>
+    <None Include="shader_shadow.vert">
+      <Filter>Resources\Shaders\Shadow</Filter>
+    </None>
+    <None Include="shader_shadow_post.frag">
+      <Filter>Resources\Shaders\Shadow</Filter>
+    </None>
+    <None Include="shader_shadow_post.vert">
+      <Filter>Resources\Shaders\Shadow</Filter>
+    </None>
+    <None Include="shader_primitive.vert">
+      <Filter>Resources\Shaders\UI</Filter>
+    </None>
+    <None Include="shader_primitive.frag">
+      <Filter>Resources\Shaders\UI</Filter>
+    </None>
+    <None Include="network.h">
+      <Filter>Code\Framework</Filter>
+    </None>
+    <None Include="data\actor.json">
+      <Filter>Resources\Data</Filter>
+    </None>
+    <None Include="data\gfx.json">
+      <Filter>Resources\Data</Filter>
+    </None>
+    <None Include="data\map.json">
+      <Filter>Resources\Data</Filter>
+    </None>
+    <None Include="data\system.json">
+      <Filter>Resources\Data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="tileset.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="map.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

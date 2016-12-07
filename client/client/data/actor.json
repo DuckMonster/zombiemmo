@@ -1,0 +1,22 @@
+{
+	"data": [
+		{
+			"id": 0,
+
+			"char": "@",
+			"color": "ffffff",
+
+			"name": "Wanderer",
+			"description": "They look determined."
+		},
+		{
+			"id": 1,
+
+			"char": "z",
+			"color": "85fd1b",
+
+			"name": "Zombie",
+			"description": "You can only see hatred in their eyes."
+		}
+	]
+}

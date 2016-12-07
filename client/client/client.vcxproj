@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{785658E1-E7F2-4342-96D7-5169ADCD0E0C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>client</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Programmering\C++\!LIBS\SFML-2.3.2\include;G:\Programmering\C++\OpenGL\!GLT\!RELEASE\include;G:\Programmering\C++\netlib\netlib\lib\include;G:\Programmering\C++\!LIBS\asio\asio-1.10.6\include;G:\Programmering\C++\BinaryStream\include;..\..\shared_code;G:\Programmering\C++\!LIBS\json-develop\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ShowIncludes>false</ShowIncludes>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>G:\Programmering\C++\!LIBS\SFML-2.3.2\lib;G:\Programmering\C++\OpenGL\!GLT\!RELEASE\lib;G:\Programmering\C++\netlib\netlib\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-window-d.lib;sfml-system-d.lib;glt-d.lib;net-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0501;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Programmering\C++\!LIBS\SFML-2.3.2\include;G:\Programmering\C++\OpenGL\!GLT\!RELEASE\include;G:\Programmering\C++\netlib\netlib\lib\include;G:\Programmering\C++\!LIBS\asio\asio-1.10.6\include;G:\Programmering\C++\BinaryStream\include;..\..\shared_code;G:\Programmering\C++\!LIBS\json-develop\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-window.lib;sfml-system.lib;glt.lib;net.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>G:\Programmering\C++\!LIBS\SFML-2.3.2\lib;G:\Programmering\C++\OpenGL\!GLT\!RELEASE\lib;G:\Programmering\C++\netlib\netlib\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="actor.cpp" />
+    <ClCompile Include="cone.cpp" />
+    <ClCompile Include="config.cpp" />
+    <ClCompile Include="database.cpp" />
+    <ClCompile Include="deathdarkness.cpp" />
+    <ClCompile Include="projectile.cpp" />
+    <ClCompile Include="cameracontroller.cpp" />
+    <ClCompile Include="enemy.cpp" />
+    <ClCompile Include="entity.cpp" />
+    <ClCompile Include="entitycollection.cpp" />
+    <ClCompile Include="framework.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="inputcontroller.cpp" />
+    <ClCompile Include="inventory.cpp" />
+    <ClCompile Include="item.cpp" />
+    <ClCompile Include="itemdrop.cpp" />
+    <ClCompile Include="line.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="map.cpp" />
+    <ClCompile Include="mathutils.cpp" />
+    <ClCompile Include="network.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="program.cpp" />
+    <ClCompile Include="shadow.cpp" />
+    <ClCompile Include="shadowdrawer.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="stringdrawer.cpp" />
+    <ClCompile Include="tiledrawer.cpp" />
+    <ClCompile Include="tileset.cpp" />
+    <ClCompile Include="tiletext.cpp" />
+    <ClCompile Include="uirenderer.cpp" />
+    <ClCompile Include="uitools.cpp" />
+    <ClCompile Include="ui_element.cpp" />
+    <ClCompile Include="ui_inventory.cpp" />
+    <ClCompile Include="ui_log.cpp" />
+    <ClCompile Include="ui_pane.cpp" />
+    <ClCompile Include="ui_sprite.cpp" />
+    <ClCompile Include="ui_textbox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\shared_code\protocol.h" />
+    <ClInclude Include="..\..\shared_code\timer.h" />
+    <ClInclude Include="..\..\shared_code\types.h" />
+    <ClInclude Include="actor.h" />
+    <ClInclude Include="cone.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="database.h" />
+    <ClInclude Include="deathdarkness.h" />
+    <ClInclude Include="jsontools.h" />
+    <ClInclude Include="projectile.h" />
+    <ClInclude Include="cameracontroller.h" />
+    <ClInclude Include="collision.h" />
+    <ClInclude Include="colorutils.h" />
+    <ClInclude Include="enemy.h" />
+    <ClInclude Include="entity.h" />
+    <ClInclude Include="entitycollection.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="inputcontroller.h" />
+    <ClInclude Include="inventory.h" />
+    <ClInclude Include="item.h" />
+    <ClInclude Include="itemdrop.h" />
+    <ClInclude Include="line.h" />
+    <ClInclude Include="map.h" />
+    <ClInclude Include="mathutils.hpp" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="program.h" />
+    <ClInclude Include="shadow.h" />
+    <ClInclude Include="shadowdrawer.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="stringdrawer.h" />
+    <ClInclude Include="tiledrawer.h" />
+    <ClInclude Include="tileset.h" />
+    <ClInclude Include="tiletext.h" />
+    <ClInclude Include="uirenderer.h" />
+    <ClInclude Include="uitools.h" />
+    <ClInclude Include="ui_element.h" />
+    <ClInclude Include="ui_inventory.h" />
+    <ClInclude Include="ui_log.h" />
+    <ClInclude Include="ui_pane.h" />
+    <ClInclude Include="ui_sprite.h" />
+    <ClInclude Include="ui_textbox.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\actor.json" />
+    <None Include="data\gfx.json" />
+    <None Include="data\map.json" />
+    <None Include="data\system.json" />
+    <None Include="network.h" />
+    <None Include="shader_line.frag" />
+    <None Include="shader_line.vert" />
+    <None Include="shader_primitive.frag" />
+    <None Include="shader_primitive.vert" />
+    <None Include="shader_shadow.frag" />
+    <None Include="shader_shadow.vert" />
+    <None Include="shader_shadow_post.frag" />
+    <None Include="shader_shadow_post.vert" />
+    <None Include="shader_tile.frag" />
+    <None Include="shader_tile.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="map.png" />
+    <Image Include="tileset.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

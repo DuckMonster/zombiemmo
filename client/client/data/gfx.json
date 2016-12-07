@@ -1,0 +1,9 @@
+{
+	"zoom": 2,
+
+	"tileset": {
+		"filename": "tileset.png",
+		"width": 9,
+		"height": 9
+	}
+}
